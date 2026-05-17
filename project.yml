@@ -1,0 +1,42 @@
+name: RestaurantOpsPurchasing
+options:
+  deploymentTarget:
+    iOS: 17.0
+settings:
+  base:
+    PRODUCT_NAME: RestaurantOpsPurchasing
+    PRODUCT_BUNDLE_IDENTIFIER: com.jushiung.shopping
+    DEVELOPMENT_TEAM: 7H7ZUG2WX8
+    CURRENT_PROJECT_VERSION: 4
+    MARKETING_VERSION: 1.0
+    SWIFT_VERSION: 5.10
+targets:
+  RestaurantOpsPurchasing:
+    type: application
+    platform: iOS
+    sources:
+      - path: RestaurantOpsPurchasing
+        excludes:
+          - Resources/agri_price_mock.json
+          - Resources/ingredient_synonyms_zh_TW.json
+    resources:
+      - path: RestaurantOpsPurchasing/Resources
+    settings:
+      base:
+        INFOPLIST_FILE: RestaurantOpsPurchasing/Info.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        CODE_SIGN_STYLE: Automatic
+        TARGETED_DEVICE_FAMILY: "1,2"
+        SUPPORTS_MACCATALYST: NO
+  RestaurantOpsPurchasingTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: RestaurantOpsPurchasingTests
+    dependencies:
+      - target: RestaurantOpsPurchasing
+    settings:
+      base:
+        BUNDLE_LOADER: "$(TEST_HOST)"
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/RestaurantOpsPurchasing.app/RestaurantOpsPurchasing"
+        PRODUCT_BUNDLE_IDENTIFIER: com.jushiung.shopping.tests

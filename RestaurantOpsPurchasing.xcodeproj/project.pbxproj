@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05A95CD1C3402184428D7CD7 /* ProPaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9506DB9A35305AE432513CD /* ProPaywallView.swift */; };
+		08C406143C7D68C8CEF1A781 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD980C086E50223CAFA1E67 /* DesignSystem.swift */; };
+		0DE9E48D1122C3C4E678172D /* PurchasingViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1B7B8DBAE596A1482E2033 /* PurchasingViewModels.swift */; };
+		1832A99BDAAE3760478F4DEB /* MarketPriceMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FD35D82B248E3FC210CE5E /* MarketPriceMapperTests.swift */; };
+		22CAC6F6106DBABB38C91A39 /* PurchasingReadModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E401AAB25938964B9445ECC /* PurchasingReadModels.swift */; };
+		22D8F6C4762CDB0E88DD3F3F /* PriceComparisonServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4395DAF527231356F0C70833 /* PriceComparisonServiceTests.swift */; };
+		31C1CE520F0A79A83A0142B8 /* PurchasingDemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2673BF3D7E3CCE30BC096809 /* PurchasingDemoStore.swift */; };
+		3A22F3A7D50B483E91802FE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ACBC01909CE297F74509782 /* Assets.xcassets */; };
+		3C046B3530D4E35C09BDDA0F /* NegotiationDraftAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACA75FC9A7F6A6EDFD6A05E /* NegotiationDraftAI.swift */; };
+		4F1DD9F7725A8D39C958009F /* PurchasingRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D980EFD56E7271BE663E877B /* PurchasingRepository.swift */; };
+		553988698B496F73166050BF /* MarketPriceDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A48344810745FEBF861A23 /* MarketPriceDTO.swift */; };
+		561879983EFE081E60C8DDA3 /* PremiumAccessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A14DDD094A88E9F40099FA4 /* PremiumAccessManager.swift */; };
+		5B09D86A8CEE0DD72AE690B3 /* SettingsDiagnosticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C0F8A86EA8265E7A62C1FF /* SettingsDiagnosticsView.swift */; };
+		5C8463D6F66214BC50379224 /* ProcurementIntelligenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DBC475BA28E9115B8C8BAB /* ProcurementIntelligenceService.swift */; };
+		5F6A253E0D505440886F7729 /* AgriPriceAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F008CF37061B4E71DAFE01 /* AgriPriceAPIClient.swift */; };
+		5FAB76AE6C5D1C72F75C2716 /* PurchasingFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4940335547C11439568105 /* PurchasingFormatters.swift */; };
+		666962B719F6EED8127AF025 /* TestSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCDBD8CD5F2EF3D45881175 /* TestSupport.swift */; };
+		6951360B64876288B047E267 /* PurchasingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1F887E7CC953F207E408D7 /* PurchasingModels.swift */; };
+		6BEBC17360E94FB593C814A5 /* SupplierListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1083417ADBF322CDD1880452 /* SupplierListView.swift */; };
+		6F66708FC02839860D3D596F /* PurchasingRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C801A20A19D204C0E8F3267A /* PurchasingRepositoryTests.swift */; };
+		744C4B681ACE95225E085E5E /* UnitConversionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F87EA7BC790B90D225FF40 /* UnitConversionService.swift */; };
+		8589533294DD53202CF46D81 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD39E0DD7840C5736F1BC8D6 /* AppConfiguration.swift */; };
+		86E42FD7E503FD69F9F7D996 /* AppRuntimeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DA9114D20DD9A093183AD9 /* AppRuntimeSettings.swift */; };
+		96C108F064B8362E3F203762 /* MarketPriceTrendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B52D4293E5129228426BDE7 /* MarketPriceTrendView.swift */; };
+		AC6EF0CD47CE2F458FEBDCD5 /* NegotiationAssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65D90E5EDA550CEF0FCD0A7 /* NegotiationAssistantView.swift */; };
+		AFF49D048EEE30B91CD1AACF /* IngredientMarketMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F9F34BC4ABD6412C03BA3C /* IngredientMarketMatcher.swift */; };
+		B5460BE7DB007923879B58BD /* UnitConversionServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220BC768EB26D58B6788BD46 /* UnitConversionServiceTests.swift */; };
+		BF14B307E63894D2C8507670 /* SupplierQuoteEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1389E4730A5317C7D3DCCEE /* SupplierQuoteEntryView.swift */; };
+		C4E4AC8F5316E126A3CE5C6E /* IngredientListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1473192FB5FF5B98C158E3AF /* IngredientListView.swift */; };
+		C718D5E84D21DA98778DD9D9 /* PriceComparisonDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E2D8A80C8E8CF88AD94D9C /* PriceComparisonDashboardView.swift */; };
+		CDEE62FB8C50D3ECD25A04CC /* Pasteboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074CCE45303A61AF5BF1C471 /* Pasteboard.swift */; };
+		D0DA37E13FCCAFF07CC91E77 /* AppShellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADCCED9F8F320F4185DB78A /* AppShellView.swift */; };
+		D2F5942343DC326F1B84D7A9 /* PriceComparisonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A77020B7806D63727EA782D /* PriceComparisonService.swift */; };
+		D55EEAD8BDE0B3978381E032 /* ResourceBundleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5B4F059CA3962DAE9BDACE /* ResourceBundleProvider.swift */; };
+		E17CCD300E1297B6B5E098D6 /* IngredientMarketMatcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B2924FC69651FE18BC2F6D /* IngredientMarketMatcherTests.swift */; };
+		EC45AE2F8D12AD5266870704 /* RestaurantOpsPurchasingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B54ABB0EB02E2233A959D2 /* RestaurantOpsPurchasingApp.swift */; };
+		F1FECCCC219270EE538EA0FD /* IngredientDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5037F5FBF74412F04DCA919 /* IngredientDetailView.swift */; };
+		F6B6776BC22D8D2F13535439 /* PurchasingEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1D0D37607041CECA4AC27 /* PurchasingEnums.swift */; };
+		FF74A8751F83B1085BF1F03E /* NegotiationDraftAITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF493CB2CF4B1A2B7CA5D74E /* NegotiationDraftAITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C0FA28404F1F0B7EEF32C57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93B57A2FE6C2D46EC08F4459 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CBF3B8FD3B751538AE4BD56;
+			remoteInfo = RestaurantOpsPurchasing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		074CCE45303A61AF5BF1C471 /* Pasteboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pasteboard.swift; sourceTree = "<group>"; };
+		09DBC475BA28E9115B8C8BAB /* ProcurementIntelligenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcurementIntelligenceService.swift; sourceTree = "<group>"; };
+		1083417ADBF322CDD1880452 /* SupplierListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupplierListView.swift; sourceTree = "<group>"; };
+		1473192FB5FF5B98C158E3AF /* IngredientListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientListView.swift; sourceTree = "<group>"; };
+		1A78790947934F9EB91A16C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1DCDBD8CD5F2EF3D45881175 /* TestSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSupport.swift; sourceTree = "<group>"; };
+		1E401AAB25938964B9445ECC /* PurchasingReadModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasingReadModels.swift; sourceTree = "<group>"; };
+		220BC768EB26D58B6788BD46 /* UnitConversionServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConversionServiceTests.swift; sourceTree = "<group>"; };
+		2673BF3D7E3CCE30BC096809 /* PurchasingDemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasingDemoStore.swift; sourceTree = "<group>"; };
+		38B2924FC69651FE18BC2F6D /* IngredientMarketMatcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientMarketMatcherTests.swift; sourceTree = "<group>"; };
+		4395DAF527231356F0C70833 /* PriceComparisonServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceComparisonServiceTests.swift; sourceTree = "<group>"; };
+		4B5B4F059CA3962DAE9BDACE /* ResourceBundleProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceBundleProvider.swift; sourceTree = "<group>"; };
+		57C0F8A86EA8265E7A62C1FF /* SettingsDiagnosticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsDiagnosticsView.swift; sourceTree = "<group>"; };
+		60FD35D82B248E3FC210CE5E /* MarketPriceMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPriceMapperTests.swift; sourceTree = "<group>"; };
+		63F87EA7BC790B90D225FF40 /* UnitConversionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConversionService.swift; sourceTree = "<group>"; };
+		6A77020B7806D63727EA782D /* PriceComparisonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceComparisonService.swift; sourceTree = "<group>"; };
+		6ACBC01909CE297F74509782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ADCCED9F8F320F4185DB78A /* AppShellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppShellView.swift; sourceTree = "<group>"; };
+		6B52D4293E5129228426BDE7 /* MarketPriceTrendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPriceTrendView.swift; sourceTree = "<group>"; };
+		79B54ABB0EB02E2233A959D2 /* RestaurantOpsPurchasingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantOpsPurchasingApp.swift; sourceTree = "<group>"; };
+		7A14DDD094A88E9F40099FA4 /* PremiumAccessManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumAccessManager.swift; sourceTree = "<group>"; };
+		8CD980C086E50223CAFA1E67 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		8E1B7B8DBAE596A1482E2033 /* PurchasingViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasingViewModels.swift; sourceTree = "<group>"; };
+		969EF7023197F9875E08D61B /* RestaurantOpsPurchasing.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = RestaurantOpsPurchasing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ACA75FC9A7F6A6EDFD6A05E /* NegotiationDraftAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegotiationDraftAI.swift; sourceTree = "<group>"; };
+		A4F05CB0B6587ED72D4D980E /* RestaurantOpsPurchasingTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = RestaurantOpsPurchasingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5037F5FBF74412F04DCA919 /* IngredientDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientDetailView.swift; sourceTree = "<group>"; };
+		AD39E0DD7840C5736F1BC8D6 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		B65D90E5EDA550CEF0FCD0A7 /* NegotiationAssistantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegotiationAssistantView.swift; sourceTree = "<group>"; };
+		BD1F887E7CC953F207E408D7 /* PurchasingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasingModels.swift; sourceTree = "<group>"; };
+		C3B1D0D37607041CECA4AC27 /* PurchasingEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasingEnums.swift; sourceTree = "<group>"; };
+		C801A20A19D204C0E8F3267A /* PurchasingRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasingRepositoryTests.swift; sourceTree = "<group>"; };
+		CA4940335547C11439568105 /* PurchasingFormatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasingFormatters.swift; sourceTree = "<group>"; };
+		D2F9F34BC4ABD6412C03BA3C /* IngredientMarketMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientMarketMatcher.swift; sourceTree = "<group>"; };
+		D4F008CF37061B4E71DAFE01 /* AgriPriceAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgriPriceAPIClient.swift; sourceTree = "<group>"; };
+		D6E2D8A80C8E8CF88AD94D9C /* PriceComparisonDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceComparisonDashboardView.swift; sourceTree = "<group>"; };
+		D9506DB9A35305AE432513CD /* ProPaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProPaywallView.swift; sourceTree = "<group>"; };
+		D980EFD56E7271BE663E877B /* PurchasingRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasingRepository.swift; sourceTree = "<group>"; };
+		E1389E4730A5317C7D3DCCEE /* SupplierQuoteEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupplierQuoteEntryView.swift; sourceTree = "<group>"; };
+		E3A48344810745FEBF861A23 /* MarketPriceDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPriceDTO.swift; sourceTree = "<group>"; };
+		E7DA9114D20DD9A093183AD9 /* AppRuntimeSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRuntimeSettings.swift; sourceTree = "<group>"; };
+		FF493CB2CF4B1A2B7CA5D74E /* NegotiationDraftAITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegotiationDraftAITests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		002B9DCC0AD3FF16C7D48CAA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E7DA9114D20DD9A093183AD9 /* AppRuntimeSettings.swift */,
+				6ADCCED9F8F320F4185DB78A /* AppShellView.swift */,
+				8CD980C086E50223CAFA1E67 /* DesignSystem.swift */,
+				A5037F5FBF74412F04DCA919 /* IngredientDetailView.swift */,
+				1473192FB5FF5B98C158E3AF /* IngredientListView.swift */,
+				6B52D4293E5129228426BDE7 /* MarketPriceTrendView.swift */,
+				B65D90E5EDA550CEF0FCD0A7 /* NegotiationAssistantView.swift */,
+				074CCE45303A61AF5BF1C471 /* Pasteboard.swift */,
+				D6E2D8A80C8E8CF88AD94D9C /* PriceComparisonDashboardView.swift */,
+				D9506DB9A35305AE432513CD /* ProPaywallView.swift */,
+				2673BF3D7E3CCE30BC096809 /* PurchasingDemoStore.swift */,
+				57C0F8A86EA8265E7A62C1FF /* SettingsDiagnosticsView.swift */,
+				1083417ADBF322CDD1880452 /* SupplierListView.swift */,
+				E1389E4730A5317C7D3DCCEE /* SupplierQuoteEntryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0066DF7FD7DD2788E7B16B52 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D4F008CF37061B4E71DAFE01 /* AgriPriceAPIClient.swift */,
+				AD39E0DD7840C5736F1BC8D6 /* AppConfiguration.swift */,
+				D2F9F34BC4ABD6412C03BA3C /* IngredientMarketMatcher.swift */,
+				9ACA75FC9A7F6A6EDFD6A05E /* NegotiationDraftAI.swift */,
+				7A14DDD094A88E9F40099FA4 /* PremiumAccessManager.swift */,
+				6A77020B7806D63727EA782D /* PriceComparisonService.swift */,
+				09DBC475BA28E9115B8C8BAB /* ProcurementIntelligenceService.swift */,
+				CA4940335547C11439568105 /* PurchasingFormatters.swift */,
+				D980EFD56E7271BE663E877B /* PurchasingRepository.swift */,
+				4B5B4F059CA3962DAE9BDACE /* ResourceBundleProvider.swift */,
+				63F87EA7BC790B90D225FF40 /* UnitConversionService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0A7AE004367F6C432DD38539 = {
+			isa = PBXGroup;
+			children = (
+				3A221268713B511DC66521E7 /* RestaurantOpsPurchasing */,
+				2F377687905B1C57ADF73EBA /* RestaurantOpsPurchasingTests */,
+				34936C70B1ABE7A48F1F1A58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CF54FF54355AFCDFB57A499 /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				E3A48344810745FEBF861A23 /* MarketPriceDTO.swift */,
+			);
+			path = DTOs;
+			sourceTree = "<group>";
+		};
+		2F377687905B1C57ADF73EBA /* RestaurantOpsPurchasingTests */ = {
+			isa = PBXGroup;
+			children = (
+				38B2924FC69651FE18BC2F6D /* IngredientMarketMatcherTests.swift */,
+				60FD35D82B248E3FC210CE5E /* MarketPriceMapperTests.swift */,
+				FF493CB2CF4B1A2B7CA5D74E /* NegotiationDraftAITests.swift */,
+				4395DAF527231356F0C70833 /* PriceComparisonServiceTests.swift */,
+				C801A20A19D204C0E8F3267A /* PurchasingRepositoryTests.swift */,
+				1DCDBD8CD5F2EF3D45881175 /* TestSupport.swift */,
+				220BC768EB26D58B6788BD46 /* UnitConversionServiceTests.swift */,
+			);
+			path = RestaurantOpsPurchasingTests;
+			sourceTree = "<group>";
+		};
+		34936C70B1ABE7A48F1F1A58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				969EF7023197F9875E08D61B /* RestaurantOpsPurchasing.app */,
+				A4F05CB0B6587ED72D4D980E /* RestaurantOpsPurchasingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A221268713B511DC66521E7 /* RestaurantOpsPurchasing */ = {
+			isa = PBXGroup;
+			children = (
+				6ACBC01909CE297F74509782 /* Assets.xcassets */,
+				1A78790947934F9EB91A16C8 /* Info.plist */,
+				79B54ABB0EB02E2233A959D2 /* RestaurantOpsPurchasingApp.swift */,
+				1CF54FF54355AFCDFB57A499 /* DTOs */,
+				C31C43B7F711A8F5505BC31A /* Models */,
+				0066DF7FD7DD2788E7B16B52 /* Services */,
+				A52F49D7880DDABDB283E2A7 /* ViewModels */,
+				002B9DCC0AD3FF16C7D48CAA /* Views */,
+			);
+			path = RestaurantOpsPurchasing;
+			sourceTree = "<group>";
+		};
+		A52F49D7880DDABDB283E2A7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8E1B7B8DBAE596A1482E2033 /* PurchasingViewModels.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C31C43B7F711A8F5505BC31A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C3B1D0D37607041CECA4AC27 /* PurchasingEnums.swift */,
+				BD1F887E7CC953F207E408D7 /* PurchasingModels.swift */,
+				1E401AAB25938964B9445ECC /* PurchasingReadModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CBF3B8FD3B751538AE4BD56 /* RestaurantOpsPurchasing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 369E8BABB02526FD4036A4A2 /* Build configuration list for PBXNativeTarget "RestaurantOpsPurchasing" */;
+			buildPhases = (
+				D94D8B567616CE4FB842A7EF /* Sources */,
+				4B5232D5B793279184A89E4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RestaurantOpsPurchasing;
+			packageProductDependencies = (
+			);
+			productName = RestaurantOpsPurchasing;
+			productReference = 969EF7023197F9875E08D61B /* RestaurantOpsPurchasing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28BEA24649C11D8BC2452E52 /* RestaurantOpsPurchasingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72B4C0CF8A3AF00520FDE02D /* Build configuration list for PBXNativeTarget "RestaurantOpsPurchasingTests" */;
+			buildPhases = (
+				0A3D41D779F65EF7AF05DF4C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6434551B0D9BD3B596AF2C23 /* PBXTargetDependency */,
+			);
+			name = RestaurantOpsPurchasingTests;
+			packageProductDependencies = (
+			);
+			productName = RestaurantOpsPurchasingTests;
+			productReference = A4F05CB0B6587ED72D4D980E /* RestaurantOpsPurchasingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93B57A2FE6C2D46EC08F4459 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1CBF3B8FD3B751538AE4BD56 = {
+						DevelopmentTeam = 7H7ZUG2WX8;
+						ProvisioningStyle = Automatic;
+					};
+					28BEA24649C11D8BC2452E52 = {
+						DevelopmentTeam = 7H7ZUG2WX8;
+					};
+				};
+			};
+			buildConfigurationList = 404DBEE67691FD09F15B3D98 /* Build configuration list for PBXProject "RestaurantOpsPurchasing" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 0A7AE004367F6C432DD38539;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 34936C70B1ABE7A48F1F1A58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CBF3B8FD3B751538AE4BD56 /* RestaurantOpsPurchasing */,
+				28BEA24649C11D8BC2452E52 /* RestaurantOpsPurchasingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B5232D5B793279184A89E4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A22F3A7D50B483E91802FE7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A3D41D779F65EF7AF05DF4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17CCD300E1297B6B5E098D6 /* IngredientMarketMatcherTests.swift in Sources */,
+				1832A99BDAAE3760478F4DEB /* MarketPriceMapperTests.swift in Sources */,
+				FF74A8751F83B1085BF1F03E /* NegotiationDraftAITests.swift in Sources */,
+				22D8F6C4762CDB0E88DD3F3F /* PriceComparisonServiceTests.swift in Sources */,
+				6F66708FC02839860D3D596F /* PurchasingRepositoryTests.swift in Sources */,
+				666962B719F6EED8127AF025 /* TestSupport.swift in Sources */,
+				B5460BE7DB007923879B58BD /* UnitConversionServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D94D8B567616CE4FB842A7EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6A253E0D505440886F7729 /* AgriPriceAPIClient.swift in Sources */,
+				8589533294DD53202CF46D81 /* AppConfiguration.swift in Sources */,
+				86E42FD7E503FD69F9F7D996 /* AppRuntimeSettings.swift in Sources */,
+				D0DA37E13FCCAFF07CC91E77 /* AppShellView.swift in Sources */,
+				08C406143C7D68C8CEF1A781 /* DesignSystem.swift in Sources */,
+				F1FECCCC219270EE538EA0FD /* IngredientDetailView.swift in Sources */,
+				C4E4AC8F5316E126A3CE5C6E /* IngredientListView.swift in Sources */,
+				AFF49D048EEE30B91CD1AACF /* IngredientMarketMatcher.swift in Sources */,
+				553988698B496F73166050BF /* MarketPriceDTO.swift in Sources */,
+				96C108F064B8362E3F203762 /* MarketPriceTrendView.swift in Sources */,
+				AC6EF0CD47CE2F458FEBDCD5 /* NegotiationAssistantView.swift in Sources */,
+				3C046B3530D4E35C09BDDA0F /* NegotiationDraftAI.swift in Sources */,
+				CDEE62FB8C50D3ECD25A04CC /* Pasteboard.swift in Sources */,
+				561879983EFE081E60C8DDA3 /* PremiumAccessManager.swift in Sources */,
+				C718D5E84D21DA98778DD9D9 /* PriceComparisonDashboardView.swift in Sources */,
+				D2F5942343DC326F1B84D7A9 /* PriceComparisonService.swift in Sources */,
+				05A95CD1C3402184428D7CD7 /* ProPaywallView.swift in Sources */,
+				5C8463D6F66214BC50379224 /* ProcurementIntelligenceService.swift in Sources */,
+				31C1CE520F0A79A83A0142B8 /* PurchasingDemoStore.swift in Sources */,
+				F6B6776BC22D8D2F13535439 /* PurchasingEnums.swift in Sources */,
+				5FAB76AE6C5D1C72F75C2716 /* PurchasingFormatters.swift in Sources */,
+				6951360B64876288B047E267 /* PurchasingModels.swift in Sources */,
+				22CAC6F6106DBABB38C91A39 /* PurchasingReadModels.swift in Sources */,
+				4F1DD9F7725A8D39C958009F /* PurchasingRepository.swift in Sources */,
+				0DE9E48D1122C3C4E678172D /* PurchasingViewModels.swift in Sources */,
+				D55EEAD8BDE0B3978381E032 /* ResourceBundleProvider.swift in Sources */,
+				EC45AE2F8D12AD5266870704 /* RestaurantOpsPurchasingApp.swift in Sources */,
+				5B09D86A8CEE0DD72AE690B3 /* SettingsDiagnosticsView.swift in Sources */,
+				6BEBC17360E94FB593C814A5 /* SupplierListView.swift in Sources */,
+				BF14B307E63894D2C8507670 /* SupplierQuoteEntryView.swift in Sources */,
+				744C4B681ACE95225E085E5E /* UnitConversionService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6434551B0D9BD3B596AF2C23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CBF3B8FD3B751538AE4BD56 /* RestaurantOpsPurchasing */;
+			targetProxy = 4C0FA28404F1F0B7EEF32C57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		137BAE0BF0092AF158EC6B16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jushiung.shopping.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RestaurantOpsPurchasing.app/RestaurantOpsPurchasing";
+			};
+			name = Debug;
+		};
+		62F36E928395912A86A42BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 4;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 7H7ZUG2WX8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jushiung.shopping;
+				PRODUCT_NAME = RestaurantOpsPurchasing;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.1;
+			};
+			name = Debug;
+		};
+		88CFC8E14524CAE51129F8AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jushiung.shopping.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RestaurantOpsPurchasing.app/RestaurantOpsPurchasing";
+			};
+			name = Release;
+		};
+		A25C3B112B4A9253685798DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 4;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 7H7ZUG2WX8;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jushiung.shopping;
+				PRODUCT_NAME = RestaurantOpsPurchasing;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.1;
+			};
+			name = Release;
+		};
+		C1047CDD9F28AF654F7CC1F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RestaurantOpsPurchasing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB44B6658A0D7FBE8B309CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RestaurantOpsPurchasing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		369E8BABB02526FD4036A4A2 /* Build configuration list for PBXNativeTarget "RestaurantOpsPurchasing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB44B6658A0D7FBE8B309CA7 /* Debug */,
+				C1047CDD9F28AF654F7CC1F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		404DBEE67691FD09F15B3D98 /* Build configuration list for PBXProject "RestaurantOpsPurchasing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F36E928395912A86A42BDB /* Debug */,
+				A25C3B112B4A9253685798DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		72B4C0CF8A3AF00520FDE02D /* Build configuration list for PBXNativeTarget "RestaurantOpsPurchasingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				137BAE0BF0092AF158EC6B16 /* Debug */,
+				88CFC8E14524CAE51129F8AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93B57A2FE6C2D46EC08F4459 /* Project object */;
+}
