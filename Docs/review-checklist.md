@@ -16,20 +16,21 @@ App: 餐採智控
 - [x] App 名稱、描述、關鍵字草稿完成（`Docs/app-store-listing.md`）。
 - [x] Support URL 已替換為 GitHub 公開專案頁。
 - [x] Marketing URL 已替換為 GitHub 公開專案頁。
-- [x] 隱私權政策正式 URL 已補入上架文件，待填入 App Store Connect。
+- [x] 隱私權政策正式 URL 已填入 App Store Connect。
+- [x] App Store Connect 主分類已設定為「商業」，第二分類為「工具程式」。
+- [x] App 隱私權問卷已設定為「不收集資料」。
 
 ## Compliance
 
 - [x] 價格計算以 deterministic service 實作，非 AI 決策。
 - [x] 具備專業意見免責聲明（README / listing）。
 - [x] local-first 設計，核心流程不依賴雲端。
-- [ ] 上傳 TestFlight 並完成第一輪外部測試。
+- [x] App Store Connect build 重新上傳成功：`1.0 (4)`，Delivery UUID `a40f9617-c3d7-4d1f-a788-1aa6c5620922`。
 - [ ] StoreKit 商品 `com.restaurantops.purchasing.pro.monthly` 已在 App Store Connect 建立並 Ready to Submit。
-- [ ] 上線環境變數 `MARKET_DATA_MODE=liveWithMockFallback` 與 `AGRI_PRICE_ENDPOINT` 已配置。
+- [x] 上線環境使用內建正式農業部 endpoint 與 mock fallback。
 
 ## Final Submission Steps
 
-1. 在含 App target 的主專案執行 Archive 並完成簽章。
-2. 上傳 TestFlight，驗證免費流程與 PRO 購買流程。
-3. 補齊 6.9 吋 / 6.7 吋截圖（首頁、比價、PRO 戰情、議價助手）。
-4. 填寫 App Review Notes，說明行情資料可能延遲、AI 只生成文字不計價。
+1. App Store Connect 目前已顯示 `iOS App 1.0` 為「已可提交的項目」。
+2. 最後由帳號持有人按右側抽屜底部的「提交以供審查」。
+3. 若要一起送審訂閱商品，需確認 StoreKit 商品 `com.restaurantops.purchasing.pro.monthly` 的本地化與審查資訊已完整。

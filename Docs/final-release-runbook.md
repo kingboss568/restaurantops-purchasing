@@ -10,21 +10,22 @@
 
 ## B. Xcode 最終建置
 
-1. 選擇實際 iOS App Target（Archive 用）  
-2. `Product > Archive`  
-3. `Distribute App > App Store Connect > Upload`
+1. 已用 Xcode CLI 重新封存並匯出 App Store Connect IPA。  
+2. 已修正 App Icon 為無白邊、RGB、無 alpha 的 1024 PNG。  
+3. 已上傳 `1.0 (4)`：Delivery UUID `a40f9617-c3d7-4d1f-a788-1aa6c5620922`。
 
 ## C. App Store Connect 填寫
 
-1. 匯入截圖（首頁、比價、PRO 戰情、議價助手）  
-2. 貼上 `Docs/app-store-listing.md` 文案  
-3. 建立 IAP：`com.restaurantops.purchasing.pro.monthly`  
-4. 填寫 Review Notes：  
+1. 截圖已由使用者上傳。  
+2. 主分類已設定為「商業」，第二分類為「工具程式」。  
+3. 隱私權政策 URL 已設定：`https://github.com/kingboss568/restaurantops-purchasing/blob/main/Docs/privacy-policy.md`。  
+4. App 隱私權問卷已設定為「不收集資料」。  
+5. Review Notes 口徑：  
    - 行情資料來自公開資料，可能有延遲  
    - AI 僅生成議價文字，不參與價格計算
 
 ## D. 最後提交
 
-1. 確認 Build Processing 完成  
-2. `Add for Review`  
-3. `Submit for Review`
+1. 右側「提交項目草稿」抽屜已顯示 `iOS App 1.0` 為「已可提交的項目」。  
+2. 帳號持有人最後按「提交以供審查」。  
+3. 若要同時送審訂閱，請先確認 `com.restaurantops.purchasing.pro.monthly` 已完成本地化與審查資訊。
