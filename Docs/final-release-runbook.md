@@ -18,11 +18,14 @@
 
 1. 截圖已由使用者上傳。  
 2. 主分類已設定為「商業」，第二分類為「工具程式」。  
-3. 隱私權政策 URL 已設定：`https://github.com/kingboss568/restaurantops-purchasing/blob/main/Docs/privacy-policy.md`。  
-4. App 隱私權問卷已設定為「不收集資料」。  
-5. Review Notes 口徑：  
+3. Support URL 已設定：`https://github.com/kingboss568/restaurantops-purchasing/blob/main/Docs/support.md`。  
+4. 隱私權政策 URL 已設定：`https://github.com/kingboss568/restaurantops-purchasing/blob/main/Docs/privacy-policy.md`。  
+5. App 描述需包含 Apple 標準 EULA：`https://www.apple.com/legal/internet-services/itunes/dev/stdeula/`。  
+6. App 隱私權問卷已設定為「不收集資料」。  
+7. Review Notes 口徑：  
    - 行情資料來自公開資料，可能有延遲  
    - AI 僅生成議價文字，不參與價格計算
+   - PRO 訂閱頁已提供可點擊的 Privacy Policy 與 Apple 標準 EULA 連結
 
 ## D. 最後提交
 

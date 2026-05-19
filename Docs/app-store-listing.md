@@ -31,6 +31,8 @@
 
 本 App 提供資料整理、計算與採購溝通輔助，僅供一般營運管理參考，不構成法律、會計、稅務、採購保證或任何專業意見。公開行情可能有延遲或品項差異，實際交易仍應由使用者與供應商確認。
 
+使用條款（Apple 標準 EULA）：https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+
 ## In-App Purchase
 
 - `RestaurantOps PRO 月訂閱`
@@ -46,7 +48,7 @@ Business
 
 ## Support URL
 
-`https://github.com/kingboss568/restaurantops-purchasing`
+`https://github.com/kingboss568/restaurantops-purchasing/blob/main/Docs/support.md`
 
 ## Marketing URL
 
@@ -55,6 +57,10 @@ Business
 ## Privacy Policy URL
 
 `https://github.com/kingboss568/restaurantops-purchasing/blob/main/Docs/privacy-policy.md`
+
+## Terms of Use URL
+
+`https://www.apple.com/legal/internet-services/itunes/dev/stdeula/`
 
 ## Version 1.0.0 Release Notes
 

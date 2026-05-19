@@ -3,6 +3,8 @@ import SwiftUI
 public struct ProPaywallView: View {
     @Environment(\.dismiss) private var dismiss
     @EnvironmentObject private var premium: PremiumAccessManager
+    private let privacyPolicyURL = URL(string: "https://github.com/kingboss568/restaurantops-purchasing/blob/main/Docs/privacy-policy.md")!
+    private let termsOfUseURL = URL(string: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/")!
 
     public init() {}
 
@@ -29,14 +31,35 @@ public struct ProPaywallView: View {
                     }
                     .padding()
                     .premiumCard()
+
+                    VStack(alignment: .leading, spacing: 8) {
+                        Text("訂閱條款")
+                            .font(.headline)
+                        Text("訂閱由 Apple App Store 處理，可於 Apple 帳號設定中管理或取消。開始訂閱前，請先閱讀以下文件。")
+                            .font(.footnote)
+                            .foregroundStyle(PurchasingTheme.muted)
+                        HStack(spacing: 16) {
+                            Link("隱私權政策", destination: privacyPolicyURL)
+                            Link("使用條款（EULA）", destination: termsOfUseURL)
+                        }
+                        .font(.footnote.weight(.semibold))
+                    }
+                    .padding()
+                    .premiumCard()
                 }
                 .padding()
             }
             .background(PurchasingTheme.appBackground.ignoresSafeArea())
             .toolbar {
+                #if os(iOS)
                 ToolbarItem(placement: .topBarTrailing) {
                     Button("關閉") { dismiss() }
                 }
+                #else
+                ToolbarItem(placement: .automatic) {
+                    Button("關閉") { dismiss() }
+                }
+                #endif
             }
             .safeAreaInset(edge: .bottom) {
                 VStack(spacing: 10) {
